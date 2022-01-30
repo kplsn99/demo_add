@@ -1,0 +1,85 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/MasterPage.master" AutoEventWireup="false" CodeFile="media_master.master.vb" Inherits="media_master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+
+        .style2
+        {
+            width: 17%;
+        }
+        .style4
+        {
+            height: 30px;
+            width: 186px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+    <p>
+        <br />
+    <table class="style2">
+        <tr>
+            <td class="style4" style="background-image: url('images/menu.gif')">
+                &nbsp;&nbsp;&nbsp; &nbsp;<asp:HyperLink ID="HyperLink7" runat="server">NEWSPAPER</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td class="style4" style="background-image: url('images/menu.gif')">
+                &nbsp;&nbsp;&nbsp; &nbsp;<asp:HyperLink ID="HyperLink8" runat="server">MAGAZINES</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td class="style4" style="background-image: url('images/menu.gif')">
+                &nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink13" runat="server">INTERNET</asp:HyperLink>
+                &nbsp;</td>
+        </tr>
+        <tr>
+            <td class="style4" style="background-image: url('images/menu.gif')">
+&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink10" runat="server">DIGITAL BANNERS</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td class="style4" style="background-image: url('images/menu.gif')">
+&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink14" runat="server">TELEVISION</asp:HyperLink>
+            </td>
+        </tr>
+        <tr>
+            <td class="style4" style="background-image: url('images/menu.gif')">
+&nbsp;&nbsp;&nbsp;&nbsp;
+                <asp:HyperLink ID="HyperLink15" runat="server">RADIO</asp:HyperLink>
+            </td>
+        </tr>
+    </table>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </p>
+</asp:Content>
+

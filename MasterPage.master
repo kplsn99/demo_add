@@ -1,0 +1,125 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 100%;
+            border-collapse: collapse;
+            border-style: solid;
+            border-width: 3px;
+            background-image: url('images/background.png');
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            <p>
+                <img alt="" src="images/banner.png" usemap="images/banner.png" /></p>
+        
+        </asp:ContentPlaceHolder>
+        <table class="style1">
+            <tr>
+                <td>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    &nbsp;<asp:HyperLink ID="HyperLink1" runat="server" BorderStyle="None" 
+                        NavigateUrl="~/home.aspx">Home</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/register.aspx">Registration</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink3" runat="server" 
+                        NavigateUrl="~/media_selection.aspx">Media</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/About_us.aspx">About 
+                    Us</asp:HyperLink>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/Contact_us.aspx">Contact 
+                    Us</asp:HyperLink>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Image ID="Image7" runat="server" Height="16px" 
+                        ImageUrl="~/images/Forward.png" Width="17px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:HyperLink ID="HyperLink6" runat="server" BackColor="#FF9900" 
+                        ForeColor="#CC0000" Target="_parent" NavigateUrl="~/add_resme.aspx">Join With Us</asp:HyperLink>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </td>
+            </tr>
+        </table>
+        <br />
+    </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        <p>
+            <br />
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+        <p>
+        </p>
+    </asp:ContentPlaceHolder>
+    <p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <table style="left: 205px; width: 672px; position: absolute; top: 850px; height: 166px; font-family: Fixedsys;">
+            <tr>
+                <td colspan="3" style="text-align: center">
+                    <span style="color: #0033ff"><span style="color: black">Cant Find It!Search Now 
+                    &nbsp;<br />
+                    </span>
+                    <asp:Image ID="Image6" runat="server" ImageUrl="~/images/Logo_25gry[1].gif" />
+                    <br />
+                    <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+                    <br />
+                    <asp:Button ID="Button2" runat="server" Text="SEARCH" />
+                    <br />
+                    <br />
+                    <span style="color: #0000cc">
+                    <a href="../../../../../../../home.aspx">HOME</a></span> |
+                    <asp:HyperLink ID="HyperLink7" runat="server" NavigateUrl="~/Contact_us.aspx"><span style="color: #0033ff">Contact 
+                    Us</span></asp:HyperLink>
+&nbsp;<span 
+                        style="color: #000000"> | 
+                    <asp:HyperLink ID="HyperLink8" runat="server" ForeColor="Blue" 
+                        NavigateUrl="~/About_us.aspx"><span style="color: #0033ff"><span 
+                        style="color: #000000">About Us</span></span></asp:HyperLink>
+                    <span style="color: #0000cc">
+                    <a href="../../../../../../../About_us.aspx"><br />
+                    </a></span></span>
+                    <asp:Label ID="Label14" runat="server" ForeColor="Maroon" 
+                        Style="left: 167px; top: 773px" Text="     Copyright ©2010-2011  Nick Infotech" 
+                        Width="279px"></asp:Label>
+                    <br />
+                    <span style="color: black">We are not responsible for the content of external 
+                    websites. Images featured&nbsp; on Ats.com are copyright of their respective 
+                    owners.<br />
+                    </span></span>
+                </td>
+            </tr>
+        </table>
+    </p>
+    </form>
+</body>
+</html>
